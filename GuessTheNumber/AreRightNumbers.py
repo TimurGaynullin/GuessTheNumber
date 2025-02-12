@@ -5,7 +5,10 @@
 Если это верно, то функция должна вернуть True.
 Если это не верно, то функция должна вернуть False.
 '''
-# Это задание выполнит ...
+# Это задание выполнит RONawht
 
-def AreRightNumbers():
-    print('Функция AreRightNumbers')
+def AreRightNumbers(little, big):
+    if little < big and little + 5 <= big:
+        return True
+    else:
+        return False
