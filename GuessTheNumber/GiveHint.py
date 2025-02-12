@@ -7,6 +7,6 @@
 
 def GiveHint(personalNum, answerNum):
     if personalNum > answerNum:
-        return 'загаданное число меньше'
+        print('загаданное число меньше')
     if personalNum < answerNum:
-        return 'загаданное число больше'
+        print('загаданное число больше')
