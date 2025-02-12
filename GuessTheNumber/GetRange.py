@@ -6,3 +6,7 @@
 
 def GetRange():
     print('GetRange')
+No newline at end of file
+    a = GetStartNumber()
+    b = GetEndNumber()
+    return [a, b]
