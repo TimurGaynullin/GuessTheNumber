@@ -11,7 +11,7 @@ from IsPositiveNumber import IsPositiveNumber
 
 
 # Это задание выполнит Акмаль
-
+# Нужна доработка
 
 def Play(start, end, answer):
     IsVictory = False
