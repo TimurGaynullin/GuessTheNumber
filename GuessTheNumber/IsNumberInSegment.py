@@ -3,7 +3,12 @@
 Если число пользователя не входит в отрезок от начального до конечного, то вывести подсказку и вернуть False.
 Если число пользователя входит в отрезок от начального до конечного, то вернуть True.
 '''
+# Это задание выполнит Карим
 
 
-def IsNumberInSegment():
-    print('IsNumberInSegment')
+def IsNumberInSegment(First, Second, UserNum):
+    if First < UserNum and UserNum < Second:
+        return True
+    else:
+        print('Выбери число из промежутка(' + str(First) + '-' + str(Second) + ')')
+        return False
