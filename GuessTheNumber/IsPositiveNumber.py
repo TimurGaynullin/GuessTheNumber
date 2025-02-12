@@ -4,9 +4,9 @@
 Если нет, то вернуть False.
 '''
 #Это задание выполнит Айсылу
-string = input()
+
 def IsPositiveNumber(string):
-    counof0 = string.count('0')
+    countof0 = string.count('0')
     countof1 = string.count('1')
     countof2 = string.count('2')
     countof3 = string.count('3')
@@ -21,4 +21,3 @@ def IsPositiveNumber(string):
         return True
     else:
         return False
-

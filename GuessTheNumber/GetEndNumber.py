@@ -7,8 +7,8 @@
 4. Если число не подходит (проверить через AreRightNumbers), то вывести ошибку и попросить пользователя ввести число еще раз.
 5. Если число подходит, то вернуть его.
 '''
-from GuessTheNumber.AreRightNumbers import AreRightNumbers
-from GuessTheNumber.IsPositiveNumber import IsPositiveNumber
+from AreRightNumbers import AreRightNumbers
+from IsPositiveNumber import IsPositiveNumber
 
 
 # Это задание выполнит Никита

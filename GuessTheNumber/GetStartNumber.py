@@ -5,7 +5,7 @@
 2. Если пользователь ввел не число или отрицательное число, то вывести ошибку и попросить пользователя ввести число еще раз.
 3. Если число подходит, то вернуть его.
 '''
-from GuessTheNumber.IsPositiveNumber import IsPositiveNumber
+from IsPositiveNumber import IsPositiveNumber
 
 
 # Это задание выполнит Никита
@@ -19,5 +19,6 @@ def GetStartNumber():
     else:
         print('Введено неверное значение. Возможно вы ввели текст или отрицательное число, введите положительное число и повторите попытку')
         return GetStartNumber()
+
 
 GetStartNumber()
