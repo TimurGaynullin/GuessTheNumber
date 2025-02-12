@@ -17,8 +17,11 @@ def GetEndNumber(StartNumber):
     print('Конечное число должно быть хотя бы на 5 больше чем стартовое')
     print('Введите конечное число')
     EndNumber = input()
-    if IsPositiveNumber(EndNumber) and AreRightNumbers(StartNumber,EndNumber):
-        return EndNumber
+
+    if IsPositiveNumber(EndNumber):
+        EndNumber = int(EndNumber)
+        if AreRightNumbers(StartNumber,EndNumber):
+            return EndNumber
     else:
         print('Возможно вы ввели текст, отрицательное число, число большее стартового менее чем на 5 или число меньше стартового')
         return GetEndNumber(StartNumber)

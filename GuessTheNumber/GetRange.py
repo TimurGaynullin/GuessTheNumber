@@ -10,5 +10,5 @@ from GetStartNumber import GetStartNumber
 
 def GetRange():
     a = GetStartNumber()
-    b = GetEndNumber()
+    b = GetEndNumber(a)
     return [a, b]

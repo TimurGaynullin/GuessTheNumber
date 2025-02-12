@@ -6,9 +6,9 @@
 '''
 # Это задание выполнит страдалец RONawht
 
-from GuessTheNumber.GetRandomNumber import GetRandomNumber
-from GuessTheNumber.GetRange import GetRange
-from GuessTheNumber.Play import Play
+from GetRandomNumber import GetRandomNumber
+from GetRange import GetRange
+from Play import Play
 
 (start, end) = GetRange()
 random_number = GetRandomNumber(start, end)

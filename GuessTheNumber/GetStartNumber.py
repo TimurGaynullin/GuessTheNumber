@@ -19,6 +19,3 @@ def GetStartNumber():
     else:
         print('Введено неверное значение. Возможно вы ввели текст или отрицательное число, введите положительное число и повторите попытку')
         return GetStartNumber()
-
-
-GetStartNumber()
